@@ -1,0 +1,52 @@
+#header{
+  position: fixed;
+  top: 0;
+  padding: 14px 16px;
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: center;
+}
+#header-img{
+  height: 75px;
+}
+#nav-bar{
+  display: block;
+  text-decoration: none; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#nav-link{
+dispay: block;
+}
+#main-content{
+  margin-top: 100px;
+}
+#form{
+  align-content: center;
+}
+#pricing{
+  display: flex;
+  flex-direction: colum;
+  align-items: stretch;
+  align-content: space-between; 
+}
+@media only screen and (max-width:600px){
+  #video{
+     weight: 200px;
+  }
+  #main-container{
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 320px){
+  #video{
+    width: 100%;
+    height: auto;
+  }
+  #header-img{
+    width: 100%;
+    height: auto;
+  }
+}
